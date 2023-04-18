@@ -1,4 +1,6 @@
 /* Base styles for the whole app */
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,16 @@
 
 body {
   font-family: sans-serif;
+}
+
+#preview {
+  background: transparent
+    url("https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png")
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
 }
