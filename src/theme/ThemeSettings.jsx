@@ -6,7 +6,7 @@ import { MdOutlineCancel } from "react-icons/md";
 import { useStateContext } from "../contexts/ContextProvider";
 import { themeColors } from "../data/dummy";
 
-const ThemeSettings = ({ handleOutsideClick }) => {
+const ThemeSettings = () => {
   const { setColor, setMode, currentMode, currentColor, setThemeSettings } =
     useStateContext();
 

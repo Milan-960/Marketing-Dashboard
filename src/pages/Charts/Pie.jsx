@@ -17,18 +17,20 @@ const Pie = () => {
   }
 
   return (
-    <div className="m-2 p-2 pb-4 md:p-10 md:m-10 mt-24 md:rounded-3xl dark:bg-secondary-dark-bg rounded-xl bg-gray-200">
-      <ChartsHeader category="Pie" title="Source" />
-      <div className="w-full">
-        <PieChart
-          data={data}
-          typeOptions={typeOptions}
-          numOptions={numOptions}
-          legendVisibility
-          height="full"
-        />
+    <>
+      <div className="m-2 p-2 pb-4 md:p-10 md:m-10 mt-24 md:rounded-3xl dark:bg-secondary-dark-bg rounded-xl bg-gray-200">
+        <ChartsHeader category="Pie" title="Source" />
+        <div className="w-full">
+          <PieChart
+            data={data}
+            typeOptions={typeOptions}
+            numOptions={numOptions}
+            legendVisibility
+            height="full"
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
