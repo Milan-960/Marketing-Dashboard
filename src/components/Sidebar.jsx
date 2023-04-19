@@ -31,9 +31,9 @@ const Sidebar = () => {
               onClick={handleCloseSidebar}
               className="items-center justify-center gap-3 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900 w-full h-full"
             >
-              <div className="p-2 pb-4 md:p-10 bg-gray-200 dark:bg-gray-800 md:rounded-3xl rounded-xl flex items-center justify-center">
-                <h1 className="text-xl font-semibold">
-                  Welcome to Marketing DashBoard
+              <div className="p-2 pb-4 md:p-2 bg-gray-200 dark:bg-gray-800 md:rounded-1xl rounded-xl flex items-center justify-center">
+                <h1 className="text-large font-semibold">
+                  Adtriba Marketing Dashboard
                 </h1>
               </div>
             </Link>
