@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { DashBoard, NotFound } from "../pages";
+import { DashBoard, NotFound, Pie } from "../pages";
 
 const AppRoutes = () => {
   return (
@@ -8,6 +8,7 @@ const AppRoutes = () => {
       <Route path="/" element={<DashBoard />} />
 
       {/* Charts */}
+      <Route path="/pie" element={<Pie />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
