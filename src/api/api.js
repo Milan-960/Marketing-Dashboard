@@ -26,7 +26,6 @@ export const fetchSources = async (
       },
     }
   );
-  console.log("res", response);
   return response.data.sources;
 };
 
@@ -53,7 +52,6 @@ export const fetchPartitionData = async (
       },
     }
   );
-  console.log("API response:", response);
   return response.data;
 };
 
@@ -105,7 +103,6 @@ export const fetchRevenue = async (
   const response = await axiosInstance.get(
     `/partitions/${partition_id}/totals/revenue`
   );
-  console.log("api revenue", response);
   return response.data.revenue;
 };
 

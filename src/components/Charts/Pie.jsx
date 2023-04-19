@@ -22,6 +22,12 @@ const Doughnut = ({ data, typeOptions, numOptions }) => {
     numOptions && numOptions[0] ? numOptions[0] : ""
   );
 
+  const pieChartData = transformPieChartData({
+    data: data,
+    valType: valueType,
+    valNum: valueNum,
+  });
+
   useEffect(() => {
     if (typeOptions && typeOptions[0]) setValueType(typeOptions[0]);
     if (numOptions && numOptions[0]) setValueNum(numOptions[0]);
@@ -30,14 +36,6 @@ const Doughnut = ({ data, typeOptions, numOptions }) => {
   if (!typeOptions || !numOptions) {
     return null;
   }
-
-  const pieChartData = transformPieChartData({
-    data: data,
-    valType: valueType,
-    valNum: valueNum,
-  });
-
-  console.log("pieChartData", pieChartData);
 
   return (
     <>

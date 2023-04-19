@@ -76,7 +76,6 @@ const DataTable = ({ data }) => {
   }
 
   const rowsWithUuid = data.map((row) => ({ ...row, id: uuid() }));
-  console.log("DataTable rows with UUID:", rowsWithUuid); // Add this line
 
   return (
     <div
