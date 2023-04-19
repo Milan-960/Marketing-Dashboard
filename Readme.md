@@ -1,6 +1,11 @@
 # Atriba Marketing DashBoard!
 
+<img align="right" src="./SS/Home.png" width="100%"/>&nbsp;
+&nbsp;
 
+# Mobile
+
+<img align="right" src="./SS/Mobile.png" width="100%"/>&nbsp;
 
 ## How to start this ptoject!
 
