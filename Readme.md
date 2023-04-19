@@ -1,7 +1,5 @@
 # Atriba Marketing DashBoard!
 
-
-
 ## How to start this ptoject!
 
 ## Note This project was created using node version **v17.4.0**

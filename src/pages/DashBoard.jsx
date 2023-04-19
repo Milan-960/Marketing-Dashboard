@@ -39,7 +39,7 @@ const DashBoard = () => {
   }
 
   return (
-    <div className="mt-24">
+    <div className="mt-24 px-4">
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
         <div className="bg-white darg:text-gray-500 dark:bg-secondary-dark-bg shadow-2xl h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
@@ -82,9 +82,9 @@ const DashBoard = () => {
       </div>
 
       <div className="flex gap-10 justify-center flex-wrap">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg shadow-2xl m-3 p-4 rounded-2xl md:w-780">
-          <div className="flex justify-between">
-            <p className="font-semibold text-xl">Revenue Updates</p>
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg shadow-2xl p-4 rounded-2xl col-span-2">
+          <p className="font-semibold text-xl text-center">Revenue Updates</p>
+          <div className="flex justify-center">
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-green-600 hover:drop-shadow-xl">
                 <span>
