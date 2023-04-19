@@ -14,8 +14,6 @@ const DashBoard = () => {
     "932561105d21a54d3d1d2a941164ffec321cd76b"
   );
 
-  console.log("data", data);
-
   const [revenue, setRevenue] = useState(null);
   const [spend, setSpend] = useState(null);
 

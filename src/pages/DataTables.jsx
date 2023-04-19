@@ -7,8 +7,6 @@ const DataTables = () => {
     "932561105d21a54d3d1d2a941164ffec321cd76b"
   );
 
-  console.log("DataTable", data);
-
   if (isLoading) {
     return <div>Loading...</div>;
   }

@@ -21,7 +21,7 @@ export const links = [
         icon: <AiOutlineStock />,
       },
       {
-        name: "bar",
+        name: "pyramid",
         icon: <AiOutlineBarChart />,
       },
       {

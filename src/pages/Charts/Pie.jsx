@@ -7,7 +7,7 @@ const Pie = () => {
   const { data, isLoading, error, typeOptions, numOptions } = useData(
     "932561105d21a54d3d1d2a941164ffec321cd76b"
   );
-  console.log("pieChartData", data);
+
   if (isLoading) {
     return <div>Loading...</div>;
   }
